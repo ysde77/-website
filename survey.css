@@ -1,0 +1,358 @@
+/*清楚默认边距*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*header设置一个外边距 流出页面最上面的距离*/
+.header{
+    height: 460px;
+    margin-top: 15px;
+}
+
+/*语言部分样式*/
+.language{
+    width: 100%;
+    height: 35px;
+    background-color:#101111;
+}
+/*语言下面的li标签用来存放english jap esp*/
+.language>ul{
+    float: right;
+    margin-right: 80px;
+}
+.language>ul>li{
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    float: left;
+    margin-left: 5px;
+    list-style: none;
+
+}
+.language>ul>li:nth-of-type(1){
+    /* background-color: aqua; */
+    background: url(../img/lag.png);
+}
+.language>ul>li:nth-of-type(1):hover{
+    /* background-color: aqua; */
+    background: url(../img/lag.png) no-repeat -50px 0;
+}
+.language>ul>li:nth-of-type(2){
+    /* background-color: aqua; */
+    background: url(../img/jpa.png);
+}
+.language>ul>li:nth-of-type(2):hover{
+    /* background-color: aqua; */
+    background: url(../img/jpa.png) no-repeat -50px 0;
+}
+.language>ul>li:nth-of-type(3){
+    /* background-color: aqua; */
+    background: url(../img/kor.png);
+}
+.language>ul>li:nth-of-type(3):hover{
+    /* background-color: aqua; */
+    background: url(../img/kor.png) no-repeat -50px 0;
+}
+.language>ul>li:nth-of-type(4){
+    /* background-color: aqua; */
+    background: url(../img/cycc.png);
+}
+.language>ul>li:nth-of-type(4):hover{
+    /* background-color: aqua; */
+    background: url(../img/cycc.png) no-repeat -50px 0;
+}
+.language>ul>li:nth-of-type(5){
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 35px;
+    background: url(../img/weather.png) no-repeat -50px 0;
+    background-color: #3c87c7;
+}
+
+/*导航条部分*/
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color:#0e2a48 ;
+}
+
+/*清楚a标签默认样式*/
+a{
+    text-decoration: none;
+    color: #101111;
+}
+
+/*导航条部分*/
+.nav>ul{
+    margin-left: 310px;
+    height: 70px;
+}
+.nav>ul>li{
+    height: 70px;
+    padding: 0 15px;
+    float: left;
+    list-style: none;
+}
+.nav>ul>li>a{
+    color: white;
+line-height: 70px;
+    
+}
+
+/* 版心 */
+.continer{
+    width: 70%;
+    height: 600px;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+.continer>.title{
+    width: 100%;
+    height: 55px;
+    /* background-color: blue; */
+    line-height: 55px;
+    color: #999;
+    font-size: 14px;
+    border-bottom: 1px solid #666;
+
+}
+
+.continer>.title>span{
+    color: #333;
+}
+.continer>.title>span:hover{
+    color: #3c88c8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

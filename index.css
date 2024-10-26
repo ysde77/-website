@@ -1,0 +1,255 @@
+/*清楚默认边距*/
+*{
+    margin:0;
+    padding: 0;
+}
+/*整个网页添加背景图片*/
+body{
+    background: url(../img/bg.jfif);
+}
+
+/*header设置一个外边距 流出页面最上面的距离*/
+.header{
+    height: 460px;
+    margin-top: 15px;
+}
+
+/*语言部分样式*/
+.language{
+    width: 100%;
+    height: 35px;
+    background-color:#101111;
+}
+/*语言下面的li标签用来存放english jap esp*/
+.language>ul{
+    float: right;
+    margin-right: 80px;
+}
+.language>ul>li{
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    float: left;
+    margin-left: 5px;
+    list-style: none;
+
+}
+.language>ul>li:nth-of-type(1){
+    /* background-color: aqua; */
+    background: url(../img/lag.png);
+}
+.language>ul>li:nth-of-type(1):hover{
+    /* background-color: aqua; */
+    background: url(../img/lag.png) no-repeat -50px 0;
+}
+.language>ul>li:nth-of-type(2){
+    /* background-color: aqua; */
+    background: url(../img/jpa.png);
+}
+.language>ul>li:nth-of-type(2):hover{
+    /* background-color: aqua; */
+    background: url(../img/jpa.png) no-repeat -50px 0;
+}
+.language>ul>li:nth-of-type(3){
+    /* background-color: aqua; */
+    background: url(../img/kor.png);
+}
+.language>ul>li:nth-of-type(3):hover{
+    /* background-color: aqua; */
+    background: url(../img/kor.png) no-repeat -50px 0;
+}
+.language>ul>li:nth-of-type(4){
+    /* background-color: aqua; */
+    background: url(../img/cycc.png);
+}
+.language>ul>li:nth-of-type(4):hover{
+    /* background-color: aqua; */
+    background: url(../img/cycc.png) no-repeat -50px 0;
+}
+.language>ul>li:nth-of-type(5){
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 35px;
+    background: url(../img/weather.png) no-repeat;
+    background-color: #3c87c7;
+}
+
+/*导航条部分*/
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color:#0e2a48 ;
+}
+
+/*清楚a标签默认样式*/
+a{
+    text-decoration: none;
+    color: #101111;
+}
+
+/*导航条部分*/
+.nav>ul{
+    margin-left: 310px;
+    height: 70px;
+}
+.nav>ul>li{
+    height: 70px;
+    padding: 0 15px;
+    float: left;
+    list-style: none;
+}
+.nav>ul>li>a{
+    color: white;
+line-height: 70px;
+    
+}
+
+.header>img{
+    float: left;
+    margin-left: 85px;
+}
+/* banner图部分*/
+.banner{
+    width: 100%;
+    height: 340px;
+    background-color: red;
+    background: url(../img/hff2.png) no-repeat;
+    background-size: 100% 340px;
+    overflow: hidden;
+}
+
+.banner>p{
+    font-size: 56px;
+    color: white;
+    margin-left: 750px;
+    margin-top: 35px;
+}
+
+/*版心部分*/
+.continer{
+    width: 80%;
+    height: 600px;
+    /* background-color: pink; */
+    
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.continer>.top1{
+    width: 100%;
+    height: 320px;
+    /* background-color: red; */
+
+}
+
+.top1>.left{
+    width: 218px;
+    height: 100%;
+    background-color: #184096;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.top1>.center{
+    width: 620px;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    margin: 0 10px;
+}
+.top1>.right{
+    width: 320px;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+    margin: 0 10px;
+}
+.top1>.left>h2{
+    color: #6593c1;
+    font-size: 20px;
+    padding: 15px 0;
+    border-bottom: 1px
+    solid #000306;
+}
+.top1>.left>ul{
+    list-style: none;
+}
+
+.top1>.left>ul>li{
+    color: white;
+    line-height: 40px;
+}
+.top1>.left>ul>li:hover{
+    color: #346289;
+    
+}
+.top1>.center{
+    background: url(../img/hf1.png);
+}
+.top1>.right{
+    background: url(../img/hf2.png);
+}
+
+/*底部*/
+.footer{
+    width: 100%;
+    height: 280px;
+    background-color:black;
+    color: white;
+    padding: 30px 90px;
+    box-sizing: border-box;
+}
+.footer>.footertop{
+    width: 100%;
+    /* background-color: pink; */
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.footertop>.left{
+    width: 33.33%;
+    height: 140px;
+    /* background-color: yellow; */
+    /* display: flex; */
+}
+
+.footertop>.left>.leftworld{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+.footertop>.left>.rightpic{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.footertop>.center{
+    width: 33.33%;
+    height: 140px;
+    /* background-color: green; */
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.footertop>.center>h3{
+    color: #4c87d1;
+}
+
+.footertop>.center>ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footertop>.center>ul>li{
+    width: 33.3%;
+    float: left;
+    
+}
+.footertop>.right{
+    width: 33.33%;
+    height: 140px;
+    /* background-color: gray; */
+}
